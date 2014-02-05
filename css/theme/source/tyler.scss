@@ -1,0 +1,55 @@
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+$backgroundColor: #272822;
+
+$mainColor: #A6E22E;
+$mainFont: 'jubilat', Georgia, serif;
+$mainFontSize: 36px;
+
+
+$headingFont: 'ff-enzo-web', Helvetica, Arial, sans-serif;
+$headingColor: #FD971F;
+
+$linkColor: #66D9EF;
+
+$selectionBackgroundColor: #A6E22E;
+$selectionColor: #000;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.reveal {
+    h1, h2, h3, h4, h5, h6 {
+        text-shadow: none;
+    }
+    h1 {
+        font-weight: 400;
+    }
+    .big {
+       font-size: 500%;
+       font-weight: bold;
+    }
+    .jubilat {
+        font-family: $mainFont;
+        color: $mainColor;
+        text-transform: none;
+    }
+    .title-slide-text {
+        color: $backgroundColor;
+    }
+}
+
+.title-slide .reveal .state-background {
+    background-color: $headingColor;
+}
