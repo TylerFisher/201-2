@@ -146,6 +146,18 @@ body {
   text-transform: none; }
 .reveal .title-slide-text {
   color: #272822; }
+.reveal section img {
+  border-color: #66d9ef; }
+.reveal blockquote {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 110%;
+  text-align: center; }
+.reveal .citation {
+  text-align: right;
+  font-size: 90%; }
 
 .title-slide .reveal .state-background {
   background-color: #fd971f; }
